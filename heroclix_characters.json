@@ -1,0 +1,208 @@
+{
+  "powerColors": {
+    "movement": {
+      "green": "Leap/Climb",
+      "pink": "Charge",
+      "blue": "Phasing/Teleport",
+      "brown": "Sidestep"
+    },
+    "attack": {
+      "lightGreen": "Energy Explosion",
+      "darkGreen": "Penetrating/Psychic Blast"
+    },
+    "defense": {
+      "purple": "Super Senses",
+      "gray": "Invulnerability",
+      "red": "Toughness"
+    },
+    "damage": {
+      "orange": "Outwit",
+      "yellow": "Perplex",
+      "white": "Special Power"
+    }
+  },
+  "characters": [
+    {
+      "id": "XM001",
+      "name": "Queen Storm",
+      "real_name": "Ororo Munroe",
+      "keywords": [
+        "X-Men",
+        "Wakanda",
+        "Ruler",
+        "Weather Manipulation"
+      ],
+      "cost": 50,
+      "range": 6,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Goddess of Thunder",
+          "description": "FREE: If Queen Storm occupies outdoor terrain, she can use Pulse Wave until your next turn."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "green",
+            "name": "Leap/Climb"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 18,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "green",
+            "name": "Leap/Climb"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "XM002",
+      "name": "Gambit",
+      "real_name": "Remy LeBeau",
+      "keywords": [
+        "X-Men",
+        "Thief",
+        "Cajun",
+        "Charge"
+      ],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    }
+  ]
+}
