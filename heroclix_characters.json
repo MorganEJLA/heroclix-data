@@ -26,12 +26,7 @@
       "id": "bp032",
       "name": "Queen Storm",
       "real_name": "Ororo Munroe",
-      "keywords": [
-        "X-Men",
-        "Wakanda",
-        "Ruler",
-        "Weather Manipulation"
-      ],
+      "keywords": ["X-Men", "Wakanda", "Ruler", "Weather Manipulation"],
       "cost": 50,
       "range": 6,
       "team": "X-Men",
@@ -117,12 +112,695 @@
       "id": "hx052",
       "name": "Gambit",
       "real_name": "Remy LeBeau",
-      "keywords": [
-        "X-Men",
-        "Thief",
-        "Cajun",
-        "Charge"
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
       ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bctv009",
+      "name": "Catwoman",
+      "real_name": "Catwoman",
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    },
+    {
+      "id": "btas004",
+      "name": "Poison Ivy",
+      "real_name": "Pamela Isley",
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    },
+    {
+      "id": "btas016",
+      "name": "Batman Beyond",
+      "real_name": "Terry",
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    },
+    {
+      "id": "btas048",
+      "name": "Bruce Wayne",
+      "real_name": "Bruce Wayne",
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cwsop111",
+      "name": "Namor",
+      "real_name": "Namor McKenzie",
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d25002b",
+      "name": "Blue Beetle",
+      "real_name": "Jaime Reyes",
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hgpc003",
+      "name": "Rogue",
+      "real_name": "Anne-Marie",
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
+      "cost": 45,
+      "range": 5,
+      "team": "X-Men",
+      "traits": [
+        {
+          "name": "Explosive Playing Cards",
+          "description": "When Gambit makes a ranged attack and hits, deal 1 penetrating damage to all opposing characters adjacent to the target."
+        }
+      ],
+      "dial": [
+        {
+          "click": 1,
+          "speed": 10,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 11,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 17,
+          "defensePower": {
+            "color": "purple",
+            "name": "Super Senses"
+          },
+          "damage": 3,
+          "damagePower": {
+            "color": "white",
+            "name": "Special Power"
+          }
+        },
+        {
+          "click": 2,
+          "speed": 9,
+          "speedPower": {
+            "color": "pink",
+            "name": "Charge"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "lightGreen",
+            "name": "Energy Explosion"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "gray",
+            "name": "Invulnerability"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "orange",
+            "name": "Outwit"
+          }
+        },
+        {
+          "click": 3,
+          "speed": 8,
+          "speedPower": {
+            "color": "brown",
+            "name": "Sidestep"
+          },
+          "attack": 10,
+          "attackPower": {
+            "color": "darkGreen",
+            "name": "Penetrating/Psychic Blast"
+          },
+          "defense": 16,
+          "defensePower": {
+            "color": "red",
+            "name": "Toughness"
+          },
+          "damage": 2,
+          "damagePower": {
+            "color": "yellow",
+            "name": "Perplex"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jlu015",
+      "name": "Vixen",
+      "real_name": "Mari McCabe",
+      "keywords": ["X-Men", "Thief", "Cajun", "Charge"],
       "cost": 45,
       "range": 5,
       "team": "X-Men",
